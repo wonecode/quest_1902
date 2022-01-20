@@ -1,4 +1,4 @@
-name: ci
+name: docker-ci
 
 on:
   push:
@@ -26,4 +26,4 @@ jobs:
         with:
           context: ./server
           push: true
-          tags: wonecode/quest1902:latest
+          tags: wonecode/quete1902:latest
